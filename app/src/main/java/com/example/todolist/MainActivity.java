@@ -153,7 +153,10 @@ public class MainActivity extends AppCompatActivity {
         else if (itemId == R.id.ukLocaleMenu) {
             editor.putString("locale", Locale.forLanguageTag("uk").toLanguageTag()).apply();
             recreate();
-
+        }
+        else if (itemId == R.id.deLocaleMenu) {
+            editor.putString("locale", Locale.forLanguageTag("de").toLanguageTag()).apply();
+            recreate();
         }
         else if (itemId == R.id.defaultThemeMenu) {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);

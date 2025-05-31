@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"TodoListe  "</string>
+    <string name="complete_by">"abschließen bis  "</string>
+    <string name="save">"Speichern  "</string>
+    <string name="title">"Titel  "</string>
+    <string name="text">"Text  "</string>
+    <string name="deadline_yyyy_mm_dd">"Frist (JJJJ-MM-TT)  "</string>
+    <string name="share">"Teilen  "</string>
+    <string name="phone_number_to_send_sms">"Telefonnummer für SMS-Versand  "</string>
+    <string name="send_sms">"SMS senden  "</string>
+    <string name="TODO">"AUFGABE  "</string>
+    <string name="locales">"Spracheinstellungen  "</string>
+    <string name="locale_as_in_the_system">"Wie im System  "</string>
+    <string name="english">"Englisch  "</string>
+    <string name="ukrainian">"Ukrainisch  "</string>
+    <string name="theme_as_in_the_system">"Wie im System  "</string>
+    <string name="light">"Hell  "</string>
+    <string name="dark">"Dunkel  "</string>
+    <string name="themes">Designs</string>
+</resources>
