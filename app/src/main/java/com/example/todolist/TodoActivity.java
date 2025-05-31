@@ -61,9 +61,9 @@ public class TodoActivity extends AppCompatActivity {
                         Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse(phoneUrl));
                         //
                         String smsText = getString(R.string.TODO) + ":\n" +
-                                getString(R.string.title) + binding.titleTodoEdit.getText().toString() + "\n" +
-                                getString(R.string.text) + binding.textTodoEdit.getText().toString() + "\n" +
-                                getString(R.string.complete_by) + binding.deadlineTodoEdit.getText().toString();
+                                getString(R.string.title) + " " + binding.titleTodoEdit.getText().toString() + "\n" +
+                                getString(R.string.text) + " " + binding.textTodoEdit.getText().toString() + "\n" +
+                                getString(R.string.complete_by) + " " + binding.deadlineTodoEdit.getText().toString();
                         //
                         intent.putExtra("sms_body", smsText);
                         startActivity(intent);
