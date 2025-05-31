@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="complete_by">complete by</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="text">Text</string>
+    <string name="deadline_yyyy_mm_dd">Deadline (YYYY-MM-DD)</string>
+    <string name="share">Share</string>
+    <string name="phone_number_to_send_sms">Phone number to send sms</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="TODO">TODO</string>
+    <string name="locales">Locales</string>
+    <string name="locale_as_in_the_system">As in the system</string>
+    <string name="english">English</string>
+    <string name="ukrainian">Ukrainian</string>
+    <string name="theme_as_in_the_system">As in the system</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="themes">Themes</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/locales" >
+        <menu >
+            <item
+                android:id="@+id/defaultLocaleMenu"
+                android:title="@string/locale_as_in_the_system" />
+            <item
+                android:id="@+id/enLocaleMenu"
+                android:title="@string/english" />
+            <item
+                android:id="@+id/ukLocaleMenu"
+                android:title="@string/ukrainian" />
+        </menu>
+    </item>
+    <item android:title="@string/themes" >
+        <menu >
+            <item
+                android:id="@+id/defaultThemeMenu"
+                android:title="@string/theme_as_in_the_system" />
+            <item
+                android:id="@+id/lightThemeMenu"
+                android:title="@string/light" />
+            <item
+                android:id="@+id/darkThemeMenu"
+                android:title="@string/dark" />
+        </menu>
+    </item>
+</menu>

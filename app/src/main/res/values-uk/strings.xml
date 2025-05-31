@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список завдань</string>
+    <string name="complete_by">завершити до</string>
+    <string name="save">Зберегти</string>
+    <string name="title">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="deadline_yyyy_mm_dd">Дедлайн (yyyy-mm-dd)</string>
+    <string name="share">Поділитися</string>
+    <string name="phone_number_to_send_sms">Номер телефону для надсилання SMS</string>
+    <string name="send_sms">Надіслати SMS</string>
+    <string name="TODO">ЗАВДАННЯ</string>
+    <string name="locales">Локалізації</string>
+    <string name="locale_as_in_the_system">Як у системі</string>
+    <string name="english">Англійська</string>
+    <string name="ukrainian">Українська</string>
+    <string name="theme_as_in_the_system">Як у системі</string>
+    <string name="light">Світла</string>
+    <string name="dark">Темна</string>
+    <string name="themes">Теми</string>
+</resources>
