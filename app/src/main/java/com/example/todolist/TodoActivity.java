@@ -79,14 +79,18 @@ public class TodoActivity extends AppCompatActivity {
     protected void attachBaseContext(Context newBase) {
         SharedPreferences preferences = newBase.getSharedPreferences("settings", MODE_PRIVATE);
         //Locales
-        String localeTag =preferences.getString("locale", Locale.ENGLISH.toLanguageTag());
-        Locale locale = Locale.forLanguageTag(localeTag);
-        Locale.setDefault(locale);
-        Configuration configuration = new Configuration();
-        configuration.setLocale(locale);
-        Context context = newBase.createConfigurationContext(configuration);
+        String localeTag =preferences.getString("locale", null);
+        if(localeTag != null)
+        {
+            Locale locale = Locale.forLanguageTag(localeTag);
+            Locale.setDefault(locale);
+            Configuration configuration = new Configuration();
+            configuration.setLocale(locale);
+            Context context = newBase.createConfigurationContext(configuration);
+            newBase = newBase.createConfigurationContext(configuration);
+        }
         //
-        super.attachBaseContext(context);
+        super.attachBaseContext(newBase);
     }
 
     @Override
@@ -194,7 +198,7 @@ public class TodoActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = preferences.edit();
         //
         if (itemId == R.id.defaultLocaleMenu) {
-            editor.putString("locale", Locale.ENGLISH.toLanguageTag()).apply();
+            editor.remove("locale").apply();
             recreate();
         }
         else if (itemId == R.id.enLocaleMenu) {
